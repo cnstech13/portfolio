@@ -92,7 +92,7 @@ $(document).ready(function () {
 //email JS
 
 (function(){
-  emailjs.init("7-hC_j5cqEFd5hXL1"); // replace this
+  emailjs.init("TizFMO1sk7ff2L_5L"); 
 })();
 
 document.getElementById("contact-form")
@@ -100,8 +100,8 @@ document.getElementById("contact-form")
   e.preventDefault();
 
   emailjs.sendForm(
-    "service_0sz40en",   // replace
-    "template_tn7t6zo",  // replace
+    "service_4ikh3ak",   
+    "template_tn7t6zo",  
     this
   )
   .then(()=> {
