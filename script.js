@@ -88,3 +88,26 @@ $(document).ready(function () {
     }
   });
 });
+
+//email JS
+
+(function(){
+  emailjs.init("7-hC_j5cqEFd5hXL1"); // replace this
+})();
+
+document.getElementById("contact-form")
+.addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  emailjs.sendForm(
+    "service_0sz40en",   // replace
+    "template_tn7t6zo",  // replace
+    this
+  )
+  .then(()=> {
+    document.getElementById("status").innerText = "Message sent successfully!";
+    this.reset();
+  }, (error) => {
+    document.getElementById("status").innerText = "Failed to send message.";
+  });
+});
