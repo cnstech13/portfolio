@@ -44,7 +44,7 @@ $(document).ready(function () {
       "Software Developer",
       "Python Developer",
       "Data Analyst",
-      "Cyber Security Expert"
+      "Mathematician"
     ],
     typeSpeed: 100,
     backSpeed: 60,
@@ -57,7 +57,7 @@ $(document).ready(function () {
       "Software Developer",
       "Python Developer",
       "Data Analyst",
-      "Cyber Security Expert"
+      "Mathematician"
     ],
     typeSpeed: 100,
     backSpeed: 60,
